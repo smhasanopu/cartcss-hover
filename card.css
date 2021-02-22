@@ -1,0 +1,71 @@
+/*==================================
+  card-section{ Start:-
+=====================================*/ 
+
+.card-section{
+    position: absolute;
+    z-index: 500;
+    top: 750px;
+    width: 100%;
+}
+.card-section .card {
+    border-radius: 0px;
+    box-shadow: 7px 8px 400px -27px rgba(0,0,0,0.56);
+-webkit-box-shadow: 7px 8px 400px -27px rgba(0,0,0,0.56);
+-moz-box-shadow: 7px 8px 400px -27px rgba(0,0,0,0.56);
+}
+.card-content{
+    padding: 20px;
+    border-radius: 0px;
+}
+.card-content h2{
+    font-weight: bold;
+    color: black;
+    font-size: 30pt;
+    padding-bottom: 20px;
+}
+.card-content p{
+    font-weight: 400;
+    color:#a0a0a0;
+    font-size: 14pt;
+    padding-bottom: 20px;
+}
+.card-content button{
+    font-weight:bold;
+    color:#fff;
+    background-color: #ff7730;
+    font-size: 14pt;
+    padding: 10px 25px;
+}
+.card-content a{
+    font-weight:bold;
+    color:#000;
+    font-size: 12pt;
+    padding-right: 50px;
+}
+   
+.card-active,
+.card-hovar:hover{
+    background-color: #f3a032;
+    color: #fff;
+    transition: 0.5s;
+}
+.card-active h2,
+.card-active p,
+.card-active a,
+.card-hovar:hover h2,
+.card-hovar:hover p,
+.card-hovar:hover a{
+    color: #fff;
+    transition: 0.5s;
+}
+.card-active button,
+.card-hovar:hover button{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+/*==================================
+  card-section{ End :-
+=====================================*/ 
